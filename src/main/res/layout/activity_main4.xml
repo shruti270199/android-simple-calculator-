@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Main4Activity">
+
+    <EditText
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:id="@+id/edit31"
+        android:layout_marginTop="100dp"
+        android:layout_marginStart="50dp"/>
+
+    <EditText
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:id="@+id/edit32"
+        android:layout_marginTop="100dp"
+        android:layout_marginStart="200dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/text31"
+        android:layout_below="@+id/edit22"
+        android:layout_marginLeft="200dp"
+        android:layout_marginTop="125dp"
+        android:textSize="25dp"
+        android:textColor="#ff3000"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="MULTIPLICATION"
+        android:id="@+id/mulbutton"
+        android:layout_marginTop="300dp"
+        android:layout_marginStart="150dp"/>
+
+</RelativeLayout>
